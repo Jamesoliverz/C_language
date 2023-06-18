@@ -55,7 +55,7 @@ void BasicQue(){
 
      
     
-        printf("\n1: Enter name of Developer\n a) shivam \t B) shivansh \t c) megha \t D) naina \n");
+        printf("\n1: Enter name of Developer\n a) James oliverz \t B) jameslee \t c) jacky \t D) lucky \n");
          printf("Ans: ");
          scanf("%s", &g);
          if(g=='a')
@@ -68,7 +68,7 @@ void BasicQue(){
         {printf(" ans is wrong \n");
         a=a+1;}
         printf("**********************************************************************");
-        printf("\n2: Enter cod of nitRA\n a) 801 \t B) 802 \t c) 803 \t D) 805 \n");
+        printf("\n2: Enter cod of NITra\n a) 801 \t B) 802 \t c) 803 \t D) 805 \n");
          printf("Ans: ");
          scanf("%s", &g);
          if(g=='b')
