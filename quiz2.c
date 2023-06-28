@@ -6,11 +6,14 @@ void Science();
 int main()
 {
     int ans,bb,i,choice;
+
     int j=0,k=0,l=0;
     char g,A=0,a=0,B=0, C=0;
-
+    
+   for(int i=0; i<4; i++)
+   {
      printf("\n Choose qustion type : \n");
-     printf("     1) Basic qustions\n     2) C language qustions \n     3) General Knowledge \n     4) science qustions \n \n \n ");
+     printf("     1) Basic qustions\n     2) C language qustions \n     3) General Knowledge \n     4) science qustions\n     5) exit \n \n \n ");
     printf("Enter your choice: ");
     scanf("%d",&choice);
     if(choice==1)
@@ -22,6 +25,10 @@ int main()
     printf("qustion type : General Knowledge  \n");
     else if (choice==4)
     printf("qustion type : science \n");
+    else if(choice==5){
+    printf("bye Bye:)");
+    break;
+    }
 
     else
     printf("wrong choice");
@@ -40,10 +47,11 @@ int main()
         case 4:
             Science();
             break;
+
         default :
             printf("wrong Iput :(");
     }
-  
+   }
     return 0;
 }
 
@@ -55,7 +63,7 @@ void BasicQue(){
 
      
     
-        printf("\n1: Enter name of Developer\n a) James oliverz \t B) jameslee \t c) jacky \t D) lucky \n");
+        printf("\n1: Enter name of Developer\n a) shivam \t B) shivansh \t c) megha \t D) naina \n");
          printf("Ans: ");
          scanf("%s", &g);
          if(g=='a')
@@ -68,7 +76,7 @@ void BasicQue(){
         {printf(" ans is wrong \n");
         a=a+1;}
         printf("**********************************************************************");
-        printf("\n2: Enter cod of NITra\n a) 801 \t B) 802 \t c) 803 \t D) 805 \n");
+        printf("\n2: Enter cod of nitRA\n a) 801 \t B) 802 \t c) 803 \t D) 805 \n");
          printf("Ans: ");
          scanf("%s", &g);
          if(g=='b')
